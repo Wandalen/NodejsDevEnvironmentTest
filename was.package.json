@@ -21,7 +21,8 @@
   "scripts": {
     "rebuild": "node-gyp rebuild",
     "quick-test": "node js/QuickTest.js",
-    "check-env": "node js/EnvCheck.js"
+    "check-env": "node js/EnvCheck.js",
+    "test": "node js/EnvCheck.js"
   },
   "repository": {
     "type": "git",

@@ -23,8 +23,9 @@ about:
     - njs >= 10.0.0
   npm.scripts:
     rebuild: node-gyp rebuild
-    install: node-gyp rebuild
-    test: node js/test.js
+    quick-test: node js/QuickTest.js
+    check-env: node js/EnvCheck.js
+    test: node js/EnvCheck.js
 build:
   proto.export:
     criterion:
