@@ -37,7 +37,8 @@
     {
       if( exitCode !== 0 )
       {
-        console.log( 'Your environment is not ready for development of native nodejs modules. Check the output above.' );
+        console.warn( 'Your environment is not ready for development of native nodejs modules, please check the output above.' );
+        console.warn( 'Make sure your development environment is configured using inscructions: https://github.com/nodejs/node-gyp#installation' )
       }
       else
       {
