@@ -33,9 +33,20 @@ jobs :
       uses : actions/setup-node@v1
       with :
         node-version : ${{ matrix.node-version }}
-    - run : npm install
+    - name : Save npm version
+      id : getnpmver
+      run : |
+        echo "::set-output name=npmver::$(npm -v)"
+    - name : Update npm if current version is 6
+      if : "startsWith( steps.getnpmver.outputs.npmver, '6.' )"
+      run : npm install -g npm@latest-6
+    - run : npm -g i willbe@delta
+    - run : will .npm.install
     - name : Environment
       run : env
     - run : npm list
       continue-on-error : true
-    - run : npm run check-env
+    - if : startsWith( matrix.os, 'ubuntu' )
+      run : xvfb-run --auto-servernum npm test
+    - if : "!startsWith( matrix.os, 'ubuntu' )"
+      run : npm test
