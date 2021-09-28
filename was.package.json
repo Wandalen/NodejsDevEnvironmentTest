@@ -12,7 +12,7 @@
     "Volodymyr M. <volodymyr.migdal@gmail.com>",
     "Dmytro Kryvoruchko <dm.vict.kr@gmail.com>"
   ],
-  "main": "js/test.js",
+  "main": "js/EnvCheck.js",
   "files": [
     "js",
     "cpp",
@@ -20,8 +20,8 @@
   ],
   "scripts": {
     "rebuild": "node-gyp rebuild",
-    "install": "node-gyp rebuild",
-    "test": "node js/test.js"
+    "quick-test": "node js/QuickTest.js",
+    "check-env": "node js/EnvCheck.js"
   },
   "repository": {
     "type": "git",
