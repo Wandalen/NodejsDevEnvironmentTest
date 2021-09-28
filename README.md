@@ -6,6 +6,5 @@ Install / check NodeJS development environment
 ```
 git clone https://github.com/Wandalen/wNodejsDevEnv.git
 cd wNodejsDevEnv
-npm install
-npm check-env
+npm run check-env
 ```
