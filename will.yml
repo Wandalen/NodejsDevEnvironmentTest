@@ -116,10 +116,10 @@ path:
     - node_modules
     - build
     - binding
-  proto: ./proto
+  proto: ./js
   export: '{path::proto}/**'
   doc: ./doc
-  js: proto
+  js: js
   cpp: cpp
   build: build
   binding: binding
