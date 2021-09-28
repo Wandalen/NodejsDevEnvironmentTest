@@ -1,6 +1,6 @@
 about:
   name: wNodejsDevEnv
-  description: Install / check NodeJS development environment
+  description: The module helps you to check that your environment is ready to build a native Node.js module and install minimal prerequisites for your platform if not.
   version: 0.0.1
   enabled: 1
   license: MIT
