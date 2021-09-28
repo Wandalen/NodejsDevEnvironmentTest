@@ -1,6 +1,6 @@
 {
   "name": "wnodejsdevenv",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engine": "node >= 10.0.0",
   "enabled": 1,
   "description": "Install / check NodeJS development environment",
@@ -21,7 +21,6 @@
   "scripts": {
     "rebuild": "node-gyp rebuild",
     "quick-test": "node js/QuickTest.js",
-    "check-env": "node js/EnvCheck.js",
     "test": "node js/EnvCheck.js"
   },
   "repository": {

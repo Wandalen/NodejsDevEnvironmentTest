@@ -3,8 +3,8 @@ root:
   - wNodejsDevEnv.out
 consistency:
   ../will.yml: &ref_0
-    hash: 35c25b4bf698bdd4e5bba7523e8918bd
-    size: 5955
+    hash: 9df7ae23e33e725aa8af3c46f19e974d
+    size: 5920
 module:
   wNodejsDevEnv.out:
     about:
@@ -34,7 +34,6 @@ module:
       npm.scripts: &ref_4
         rebuild: node-gyp rebuild
         quick-test: node js/QuickTest.js
-        check-env: node js/EnvCheck.js
         test: node js/EnvCheck.js
     path:
       module.willfiles:
@@ -1115,5 +1114,5 @@ module:
           - 'build::npm'
     consistency:
       ../will.yml:
-        hash: 35c25b4bf698bdd4e5bba7523e8918bd
-        size: 5955
+        hash: 9df7ae23e33e725aa8af3c46f19e974d
+        size: 5920
