@@ -3,14 +3,17 @@ root:
   - wNodejsDevEnv.out
 consistency:
   ../will.yml: &ref_0
-    hash: 9df7ae23e33e725aa8af3c46f19e974d
-    size: 5920
+    hash: 1c67ad70fa607fb9413627ae4f39008e
+    size: 6027
 module:
   wNodejsDevEnv.out:
     about:
       name: wNodejsDevEnv
       org: noorg
-      description: Install / check NodeJS development environment
+      description: >-
+        The module helps you to check that your environment is ready to build a
+        native Node.js module and install minimal prerequisites for your
+        platform if not.
       enabled: 1
       version: 0.0.1
       license: MIT
@@ -612,7 +615,10 @@ module:
     about:
       name: wNodejsDevEnv
       org: noorg
-      description: Install / check NodeJS development environment
+      description: >-
+        The module helps you to check that your environment is ready to build a
+        native Node.js module and install minimal prerequisites for your
+        platform if not.
       enabled: 1
       version: 0.0.1
       license: MIT
@@ -1114,5 +1120,5 @@ module:
           - 'build::npm'
     consistency:
       ../will.yml:
-        hash: 9df7ae23e33e725aa8af3c46f19e974d
-        size: 5920
+        hash: 1c67ad70fa607fb9413627ae4f39008e
+        size: 6027
