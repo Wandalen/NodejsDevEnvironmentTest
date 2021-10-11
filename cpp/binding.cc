@@ -4,7 +4,7 @@
 static void status( const v8::FunctionCallbackInfo<v8::Value>& args )
 {
   v8::Isolate* isolate = args.GetIsolate();
-  auto val = v8::String::NewFromUtf8( isolate, "OK" ).ToLocalChecked();
+  auto val = v8::Boolean::New( isolate, true );
   args.GetReturnValue().Set( val );
 }
 
