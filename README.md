@@ -1,4 +1,4 @@
-# wNodejsDevEnv [![status](https://github.com/Wandalen/wNodejsDevEnv/actions/workflows/StandardPublish.yml/badge.svg)](https://github.com/Wandalen/wNodejsDevEnv/actions/workflows/StandardPublish.yml) [![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/emersion/stability-badges#experimental)
+# NodejsDevEnvironmentTest [![status](https://github.com/Wandalen/wNodejsDevEnv/actions/workflows/StandardPublish.yml/badge.svg)](https://github.com/Wandalen/wNodejsDevEnv/actions/workflows/StandardPublish.yml) [![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/emersion/stability-badges#experimental)
 
 The module helps you to check that your environment is ready to build a native Node.js module and install minimal prerequisites for your platform if not.
 
