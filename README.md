@@ -10,4 +10,4 @@ git clone https://github.com/Wandalen/wNodejsDevEnv.git && cd wNodejsDevEnv && n
 
 ```
 
-This command checks that your environment meets all the requirements to start the development of native Node.js modules.
+This command checks that your environment meets all the requirements to start to develop and/or to use native Node.js modules.
