@@ -3,8 +3,8 @@ root:
   - NodejsDevEnvironmentTest.out
 consistency:
   ../will.yml: &ref_0
-    hash: e23fe84682e3b0662e2d958c61a8cb1b
-    size: 6038
+    hash: f0af0e302a68c0255bac0f235f49ac4f
+    size: 5917
 module:
   NodejsDevEnvironmentTest.out:
     about:
@@ -362,9 +362,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -533,12 +530,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -884,9 +875,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -1056,12 +1044,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -1120,5 +1102,5 @@ module:
           - 'build::npm'
     consistency:
       ../will.yml:
-        hash: e23fe84682e3b0662e2d958c61a8cb1b
-        size: 6038
+        hash: f0af0e302a68c0255bac0f235f49ac4f
+        size: 5917
