@@ -19,7 +19,7 @@ module:
       license: MIT
       native: 1
       npm.name: wnodejsdevenv
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords: &ref_1
         - native
         - addon
@@ -29,7 +29,7 @@ module:
         - bindings
         - gyp
       contributors: &ref_2
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters: &ref_3
@@ -624,7 +624,7 @@ module:
       license: MIT
       native: 1
       npm.name: wnodejsdevenv
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords: *ref_1
       contributors: *ref_2
       interpreters: *ref_3

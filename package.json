@@ -5,10 +5,10 @@
   "enabled": 1,
   "description": "The module helps you to check that your environment is ready to build a native Node.js module and install minimal prerequisites for your platform if not.",
   "license": "MIT",
-  "author": "Kostiantyn Wandalen <wanalen@01.school>",
+  "author": "Kostiantyn Wandalen <wandalen@obox.systems>",
   "gypfile": true,
   "contributors": [
-    "Kostiantyn Wandalen <wanalen@01.school>",
+    "Kostiantyn Wandalen <wandalen@obox.systems>",
     "Volodymyr M. <volodymyr.migdal@gmail.com>",
     "Dmytro Kryvoruchko <dm.vict.kr@gmail.com>"
   ],

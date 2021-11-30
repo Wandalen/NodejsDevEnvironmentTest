@@ -9,7 +9,7 @@ about:
   license: MIT
   native: 1
   npm.name: wnodejsdevenv
-  author: Kostiantyn Wandalen <wanalen@01.school>
+  author: Kostiantyn Wandalen <wandalen@obox.systems>
   keywords:
     - native
     - addon
@@ -19,7 +19,7 @@ about:
     - bindings
     - gyp
   contributors:
-    - Kostiantyn Wandalen <wanalen@01.school>
+    - Kostiantyn Wandalen <wandalen@obox.systems>
     - Volodymyr M. <volodymyr.migdal@gmail.com>
     - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
   interpreters:
