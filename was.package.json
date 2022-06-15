@@ -1,6 +1,6 @@
 {
   "name": "nodejs_dev_environment_test",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "engine": "node >= 10.0.0",
   "enabled": 1,
   "description": "The module helps you to check that your environment is ready to build a native Node.js module and install minimal prerequisites for your platform if not.",
